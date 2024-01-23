@@ -1,0 +1,31 @@
+.calc{
+    width: 400px;
+    height: 450px;
+    background:grey;
+    margin-left: 400px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(56, 55, 55);
+}
+input{
+   width: 295px;
+   margin-left: 50px;
+  height: 78px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgb(56, 55, 55);
+}
+  
+
+button{
+    width: 60px;
+    height: 45px;
+    border-radius: 10px;
+    background:white;
+    align-items: center;
+  margin-left: 15px;
+  margin-top: 15px;
+  box-shadow: 10px 10px 5px rgb(56, 55, 55);
+}
+.number{
+    margin-left: 38px;
+}

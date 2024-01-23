@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="icon" href="images/cal.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="main-body">
+      <div class="calc">
+        <div class="output">
+          <input type="text" name="display" id="display" />
+          <div class="number">
+            <button onclick="clearrr()" style="width: 55px;height:40px ;border-radius: 10px; background-color: red;">C</button><br>
+            <button  onclick="action(7)">7</button>
+            <button onclick="action(8)">8</button>
+            <button onclick="action(9)">9</button>
+            <button onclick="action('/')">/</button>
+            <button onclick="action(4)">4</button>
+            <button onclick="action(5)">5</button>
+            <button onclick="action(6)">6</button>
+            <button onclick="action('*')">*</button>
+            <button onclick="action(1)">1</button>
+            <button onclick="action(2)">2</button>
+            <button onclick="action(3)">3</button>
+            <button onclick="action('-')">-</button>
+            <button onclick="action(0)">0</button>
+            <button onclick="action('.')">.</button>
+            <button onclick="action('+')">+</button>
+            
+            <button onclick="eql()"style="background: orange; width: 70px;">=</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
